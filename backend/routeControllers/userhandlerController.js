@@ -58,7 +58,7 @@ export const getCurrentChatters = async (req, res) => {
         );
 
         // Debugging output
-        console.log("Participants IDs:", participantsIDs);
+        // console.log("Participants IDs:", participantsIDs);
 
         // Remove duplicates using a Set
         const uniqueParticipantIDs = [...new Set(participantsIDs)];
